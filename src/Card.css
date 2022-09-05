@@ -1,0 +1,21 @@
+.Card {
+    height: 70px;
+    width: 50px;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    position: absolute;
+}
+
+.Card:active {
+    filter: grayscale(50%);
+}
+
+.floating-window {
+    box-sizing: border-box;
+    display: inline-block;
+}
