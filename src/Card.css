@@ -5,6 +5,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    border: solid 2px #C39A6E;
+    border-radius: 3px;
+}
+
+.circle {
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    background-color: #403F3B;
+    border-radius: 50%;
 }
 
 p {

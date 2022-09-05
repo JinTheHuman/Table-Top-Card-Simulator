@@ -49,8 +49,9 @@ const Card = ({ number }) => {
   return (
     <div className='Card' 
     onDoubleClick={handleDoubleClick} 
-    style={{backgroundColor: cardOrientation ? '#EF4E6E' : '#39AF8E'}}>
+    style={{backgroundColor: cardOrientation ? '#71402C' : '#FFFFFF'}}>
       <p>{cardOrientation ? "" : number }</p>
+      {cardOrientation ? <div className='circle'></div> : ""}
     </div>
   )
 }
