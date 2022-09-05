@@ -23,7 +23,7 @@ p {
 }
 
 .Card:active {
-    filter: grayscale(50%);
+    filter: brightness(70%);
 }
 
 .floating-window {
